@@ -1,0 +1,8 @@
+.lead__image {
+    background-image: url(../../../images/interior.png);
+    width: 100%;
+    height: 0;
+    background-size: contain;
+    background-repeat: none;
+    padding-top: 62.5%;
+}

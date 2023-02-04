@@ -1,0 +1,12 @@
+.intro__list-element {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.intro__list-element span {
+    font-weight: 700;
+}

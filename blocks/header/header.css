@@ -1,0 +1,7 @@
+.header {
+    width: 1184px;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, max-content);
+    grid-template-rows: 1fr;
+    column-gap: 18px;
+}
