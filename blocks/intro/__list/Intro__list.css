@@ -3,3 +3,15 @@
     margin: 33px 0 0 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        margin:33px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .intro__list {
+        margin: 33px 16px 0 16px;
+    }
+}

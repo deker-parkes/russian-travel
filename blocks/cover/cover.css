@@ -3,3 +3,10 @@
     height: 740px;
     position: relative;
 }
+
+@media screen and (max-width: 1200px) {
+    .cover {
+        width: 100%;
+        height: calc((100vw - 16px) / 1.6);
+    }
+}
