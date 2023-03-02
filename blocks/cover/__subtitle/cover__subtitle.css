@@ -3,18 +3,16 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    color: #FFFFFF;
-    max-width: 360px;
-    max-height: 66px;
     text-align: center;
-    margin: 32px 0 0 0;
+    max-width: 360px;
+    color: #FFFFFF;
+    margin: 0;
+    z-index: 1;
 }
 
 @media screen and (max-width: 752px) {
     .cover__subtitle {
-        margin: 16px 0 0 0;
         font-size: 14px;
         line-height: 16px;
-        max-width: 288px;
     }
 }

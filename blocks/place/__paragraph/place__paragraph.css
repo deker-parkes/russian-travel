@@ -8,8 +8,17 @@
     margin: 0;
 }
 
+@media screen and (max-width: 976px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
 @media screen and (max-width: 352px) {
-    .place__text {
+    .place__paragraph {
         padding: 0 16px 0 16px;
+        font-size: 16px;
+        line-height: 26.08px;
     }
 }

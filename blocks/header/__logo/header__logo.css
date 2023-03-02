@@ -1,6 +1,8 @@
 .header__logo {
     justify-self: left;
     margin-top: 28px;
+    width: 176px;
+    height: 52px;
 }
 
 @media all and (max-width: 425px) {

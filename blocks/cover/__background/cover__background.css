@@ -1,7 +1,6 @@
 .cover__background {
-    height: 100%;
+    z-index: -2;
+    width: auto;
+    position: absolute;
     width: 100%;
-    background-image: url(../../../images/trains.png);
-    z-index: 3;
-    background-size: contain;
 }

@@ -9,8 +9,10 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Логотип Россия">
-    <a class="header__lang-link header__lang-link_active" href="./index.html" target="_self">Ru</a>
-    <a class="header__lang-link" href="#" target="_self">En</a>
+    <ul class="header__links">
+      <a class="header__lang-link header__lang-link_active" href="./index.html" target="_self">Ru</a>
+      <a class="header__lang-link" href="#" target="_self">En</a>
+    </ul>
   </header>
   <main class="content">
     <section class="lead">
@@ -20,7 +22,7 @@
       <p class="lead__caption">ваша полка — верхняя</p>
       </section>
     <section class="intro">
-    <h2 class="intro__title">Чего мы там не видели?</h2>
+    <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
     <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. 
       Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. 
       А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. 
@@ -28,11 +30,11 @@
       Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
     </p>
     <ul class="intro__list">
-      <li class="intro__list-element"><span>Часовых поясов</span> 11</li>
-      <li class="intro__list-element"><span>Объектов природного наследия ЮНЕСКО</span> 12</li>
-      <li class="intro__list-element"><span>Объектов культурного наследия ЮНЕСКО</span> 16</li>
-      <li class="intro__list-element"><span>Природных заповедников</span> 105</li>
-      <li class="intro__list-element"><span>Аэропортов</span> 241</li>
+      <li class="intro__list-element"><span class="intro__list-accent">Часовых поясов</span> 11</li>
+      <li class="intro__list-element"><span class="intro__list-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+      <li class="intro__list-element"><span class="intro__list-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+      <li class="intro__list-element"><span class="intro__list-accent">Природных заповедников</span> 105</li>
+      <li class="intro__list-element"><span class="intro__list-accent">Аэропортов</span> 241</li>
     </ul>
     </section>
     <section class="photo-grid">
@@ -53,7 +55,7 @@
     <div class="place">
       <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
-        <h3 class="place__url-heading">URL</h3>
+        <p class="place__url-heading">url</p>
         <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
       </div>
       <img class="place__image" src="./images/kosa.png" alt="Куршская коса">
@@ -141,21 +143,21 @@
     </div>
     </section>
     <section class="cover">
-    <div class="cover__background"></div>
-    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-      <div class="cover__overlay">
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-    </div>
-    </a>
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2> 
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
+      <img class="cover__background" src="./images/trains.png" alt="Поезда">
     </section>
   </main>
   <footer class="footer">
-    <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-    <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-    <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-    <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-    <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    <nav class="footer__links">
+      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    </nav>
     <p class="footer__copyright">&copy; 2020. Иван Борисов</p>
   </footer>
 </body>

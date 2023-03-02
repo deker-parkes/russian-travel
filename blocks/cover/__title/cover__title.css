@@ -3,29 +3,16 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
-    color: #FFFFFF;
-    max-width: 560px;
     text-align: center;
-    margin: 245px 0 0 0;
-}
-
-@media screen and (max-width: 1080px) {
-    .cover__title {
-        margin: 195px 0 0 0
-    }
-}
-
-@media screen and (max-width: 976px) {
-    .cover__title {
-        margin: 115px 0 0 0
-    }
+    max-width: 560px;
+    color: #FFFFFF;
+    margin: 0;
+    z-index: 1;
 }
 
 @media screen and (max-width: 752px) {
     .cover__title {
-        margin: 33px 0 0 0;
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
     }
 }

@@ -13,9 +13,7 @@
 @media screen and (max-width: 720px) {
     .lead__title {
         max-width: 288px;
-        font-family: Inter;
         font-size: 40px;
-        font-weight: 900;
         line-height: 44px;
     }
 }
