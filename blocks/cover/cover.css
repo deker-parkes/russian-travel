@@ -5,6 +5,8 @@
     display: flex;
     align-self: stretch;
     margin: 0 48px 0 48px;
+    background-image: url(../../images/trains.png);
+    background-size: contain;
 }
 
 @media screen and (max-width: 1279px) {
